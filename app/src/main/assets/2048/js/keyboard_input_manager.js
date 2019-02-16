@@ -71,7 +71,7 @@ KeyboardInputManager.prototype.listen = function () {
   // Respond to button presses
   this.bindButtonPress(".retry-button", this.restart);
   this.bindButtonPress(".restart-button", this.restartWithConfirmation);
-  this.bindButtonPress(".undo-button", this.undoWithConfirmation);    
+  //this.bindButtonPress(".undo-button", this.undoWithConfirmation);    
   this.bindButtonPress(".keep-playing-button", this.keepPlaying);
   this.bindButtonPress(".undo-move-button", this.undoMove);
   this.bindButtonPress(".confirm-button", this.restart);    
